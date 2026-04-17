@@ -1,0 +1,44 @@
+# 数据集 / 大文件
+data/
+dataset/
+datasets/
+images/
+labels/
+annotations/
+
+# 模型权重 / 训练文件
+*.pt
+*.pth
+*.pkl
+*.h5
+*.hdf5
+*.caffemodel
+*.onnx
+*.weights
+*.bin
+checkpoints/
+weights/
+models/
+pretrained/
+
+# 训练日志
+logs/
+runs/
+output/
+result/
+*.log
+*.csv
+
+# 系统缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.tmp
+*.temp
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
